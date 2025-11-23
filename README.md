@@ -26,6 +26,7 @@ An RFM (Recency, Frequency, Monetary) analysis revealed a polarization in the cu
 *   **Business Implication:** The acquisition funnel is working, but the retention loop is broken. Post-purchase engagement is the highest priority area for improvement.
 
 ![RFM Customer Segmentation Chart](images/rfm_segmentation.png)
+
 *Figure 1: Customer segmentation showing the dominance of one-time buyers vs. champions.*
 
 ### B. The Multi-Brand Premium (LTV Impact)
@@ -35,6 +36,7 @@ Contrary to the belief that "Brand Loyalty" drives the highest value, customers 
 *   **Insight:** Customers who browse and buy across brands (e.g., buying an Apple phone *and* a Samsung TV) are **21% more valuable** than those sticking to one ecosystem.
 
 ![LTV Distribution Boxplot](images/ltv_distribution.png)
+
 *Figure 2: Lifetime Value comparison between Single-Brand Loyalists and Multi-Brand Shoppers.*
 
 ### C. Operational Leakage: Split Orders
@@ -43,6 +45,7 @@ Analyzing the cadence of repeat purchases uncovered a logistical inefficiency.
 *   **Business Implication:** A significant portion of users are forgetting items and checking out twice. These split orders likely result in double shipping costs and packaging waste.
 
 ![Purchase Cadence Chart](images/purchase_cadence.png)
+
 *Figure 3: Time interval between repeat purchases showing a spike in <30 minute transactions.*
 
 ### D. Market Basket Affinities
@@ -74,6 +77,7 @@ Based on the data, I recommend the following actions to the management team:
 The analysis is based on a comprehensive dataset containing ~110 million records from Oct/Nov 2019. The Entity Relationship Diagram (ERD) below represents the data schema used to derive these insights.
 
 ![Entity Relationship Diagram](images/erd_diagram.png)
+
 *Figure 4: Data Schema showing relationships between User Sessions, Events, and Products.*
 
 ---
